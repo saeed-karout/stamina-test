@@ -1,0 +1,43 @@
+/* Large screens */
+@media (min-width: 1200px) {
+  .contact-form {
+    max-width: 800px;
+    margin: 40px auto;
+  }
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .contact-form {
+    max-width: 500px;
+    margin: 30px auto;
+  }
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+  .contact-form {
+    max-width: 300px;
+    margin: 20px auto;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 479px) {
+  .contact-form {
+    max-width: 250px; /* Adjust the max-width to fit smaller screens */
+ 
+    padding: 10px; /* Add some padding to make the form more readable */
+  }
+
+  /* Adjust the input fields and buttons to fit smaller screens */
+  input[type="text"], input[type="email"], textarea {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  input[type="submit"], input[type="reset"] {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}

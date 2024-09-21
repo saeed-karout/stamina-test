@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+
+.scrollToTop{
+background-color: #686260;
+
+width: 2.6rem;
+height: 2.6rem;
+border-radius: 50%;
+position: fixed;
+bottom: 2rem;
+right: 3%;
+text-align: center;
+border: 1px solid rgba(255, 255, 255, 0.2);
+font-size: 1.2rem;
+z-index: 9999999999999;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.scrollToTop:hover{
+background-color: #686260;
+border: 1px solid rgba(255, 255, 255, 0.2);
+
+
+}
+
+
+
+
+@media (max-width: 600px) {
+
+.scrollToTop{
+opacity: 0.5;
+width: 2.2rem;
+height: 2.2rem;
+font-size: 1.1rem;
+z-index: 999999;
+}
+}

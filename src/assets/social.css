@@ -1,0 +1,17 @@
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:  2.50rem;
+  height: 2.50rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+
+
+}
+
+.social:hover {
+  background-color: #dcdbe2;
+  color: #000;
+  border: 1px solid #5b5a5a;
+}
