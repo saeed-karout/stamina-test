@@ -42,8 +42,8 @@ function HeroSection() {
   ];
 
   return (
-    <div className="hero flex flex-col justify-around  w-full h-[1100px]">
-      <div className="text-white text-center pb-24 text-4xl">Sections</div>
+    <div className="hero flex flex-col justify-around  w-full h-[1100px] bg-primary dark:bg-secondary">
+      <div className="text-white text-center  text-4xl">Sections</div>
 
       <div className="flex flex-col md:flex-row justify-center items-center gap-y-20 mt-12 px-4 md:px-20">
         {contentData.map((item) => (

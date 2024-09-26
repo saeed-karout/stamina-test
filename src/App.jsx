@@ -23,7 +23,7 @@ function App() {
   const [showScrollButton, setShowScrollButton] = useState(false)
 
 return (
-<div id="up" className='bg-secondary'>
+<div id="up" className='dark:bg-secondary'>
     <Navbar />
 
         <div className=" mx-auto  ">
