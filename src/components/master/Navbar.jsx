@@ -66,8 +66,8 @@ function Navbar() {
   };
 
   return (
-    <header className={`nav fixed inset-x-0 top-0 z-50 lg:w-[90vw] sm:w-[100vw] py-2 px-5 md:top-6 md:rounded-3xl mx-auto shadow-lg transition-all duration-300 
-      ${scrolled ? 'backdrop-blur-md ' : 'bg-transparent'}`}>
+    <header className={` fixed inset-x-0 top-0 z-50 lg:w-[90vw] sm:w-[100vw] py-2 px-5 md:top-6 md:rounded-3xl mx-auto shadow-lg transition-all duration-300 du
+      ${scrolled ? 'backdrop-blur-md shadow-[0_0_30px_#686260]  dark:shadow-[0_0_20px_#F6B451]  ' : 'bg-transparent'}`}>
       <div className="relative flex items-center justify-between z-10">
         {/* Logo Section */}
         <div className="flex flex-1">
