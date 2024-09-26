@@ -1,10 +1,15 @@
+:root{
+  --orange-color :'#FB923C' ;
+  
+}
+
 .dark .nav{
 box-shadow: 0 0 20px #F6B451;
 }
 
 .nav{
 box-shadow: 0 0 30px #686260;
-  
+  direction: ltr;
 }
 
 
@@ -102,4 +107,22 @@ box-shadow: 0 0 30px #686260;
 
 .mobile-menu .menu-item.active {
   color: #B99269;
+}
+
+.icon-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.sun-icon, .moon-icon {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  color: #686260;
+}
+
+
+button:hover .sun-icon, button:hover .moon-icon {
+  transform: rotate(360deg);
+  opacity: 1;
+
+
 }

@@ -1,8 +1,39 @@
 {
+  "nav": {
+    "Quick_Links":"Quick Links",
     "home": "Home",
     "our_products": "Our Products",
     "about_us": "About Us",
     "contact_us": "Contact Us",
     "spaces": "Spaces"
+  },
+  "about": {
+    "about": "About Us",
+    "title":"Stamina Trading Company was launched in Riyadh, Kingdom of Saudi Arabia in 2011 AD.",
+    "subtitle":"We specialize in trading and manufacturing sanitary ware and parts. We ensure that our products and services are of high quality, starting from production to sales, taking into account the smallest details in quality and design.",
+    "subtitle2":"Our products successfully passed all the required tests according to the standards of the Saudi market. God blessed us for our success which born from our insistence to be among the distinguished in the list of sanitary ware manufacturers.",
+    "subtitle3":"We strive to provide everything that meets the expectations of our customers, so we have established a professional team that possesses competence and high professional and administrative experience to enable us to follow up with customers and pay attention to the smallest details that make us the best choice for customers.",
+    "foundedTitle":"Founded",
+    "founded":"Stamina Trading Company was launched in Riyadh, Kingdom of Saudi Arabia in 2011 AD.",
+    "happyTitle":"Happy clients",
+    "happy":"Stamina has established 500+ closed deals with clients all over the KSA.",
+    "projectsTitle":"Projects completed",
+    "projects":"More than 250 project were delivered all over the KSA.",
+    "Mission":{
+      "title":"Our Mission",
+      "desc":"To be the most appropriate choice in the world of sanitary products and gadgets, to be a major reason for making your life easier."
+    },
+    "Vision":{
+      "title":"Our Vision",
+      "desc":"Gaining the trust of our customers for everything related to the manufacture of sanitary products. Providing them with the result of our experience and knowledge at the highest level."
+    }
+  },
+  "footer":{
+    "Keep_in_touch":"Keep in touch",
+    "Subscribe":"Subscribe to our website to get products that meet the needs of every home.",
+    "enter_email":"Enter Your Email Address",
+    "btn":"Subscribe",
+    "copy":"Copyright 2024 Stamina",
+    "reserved":"All rights reserved"
   }
-  
+}

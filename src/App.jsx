@@ -6,6 +6,8 @@ import './index.css';
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Project from "./pages/Project";
+
 import { useEffect, useState } from "react";
 import { FaAnglesUp } from "react-icons/fa6";
 
@@ -21,7 +23,7 @@ function App() {
   const [showScrollButton, setShowScrollButton] = useState(false)
 
 return (
-<div id="up" className=' dark:bg-secondary'>
+<div id="up" className='bg-secondary'>
     <Navbar />
 
         <div className=" mx-auto  ">
@@ -30,6 +32,8 @@ return (
                 <Route path="/"  element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact-us" element={<Contact />} />
+                <Route path="/project" element={<Project />} />
+
             </Routes>
 
 
