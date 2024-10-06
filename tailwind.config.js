@@ -7,7 +7,7 @@ export default {
   darkMode: 'class', // أو 'media' إذا كنت تريد التفعيل بناءً على تفضيلات النظام
   theme: {
     colors: {
-      'primary': '#BB936A',
+      'primary': '#fb923c',
       'secondary': '#324654',
       'secondaryDark':'#1F2937',
       'white': '#ffffff',

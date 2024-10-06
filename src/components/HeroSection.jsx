@@ -46,6 +46,7 @@ function HeroSection() {
       <div className="text-white text-center  text-4xl">Sections</div>
 
       <div className="flex flex-col md:flex-row justify-center items-center gap-y-20 mt-12 px-4 md:px-20">
+
         {contentData.map((item) => (
           <ContentBlock
             key={item.id}
@@ -54,6 +55,7 @@ function HeroSection() {
             articlePositionClasses={item.articlePositionClasses}
           />
         ))}
+        
       </div>
     </div>
   );
